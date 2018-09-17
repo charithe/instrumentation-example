@@ -57,7 +57,7 @@ func main() {
 	components := []string{"component_a", "component_b", "component_c"}
 	statuses := []string{"success", "failure"}
 
-	for i := 0; i < 20; i++ {
+	for i := 0; i < 100; i++ {
 		component := components[rand.Intn(len(components))]
 		status := statuses[rand.Intn(len(statuses))]
 		duration := rand.Intn(5000) + 1
